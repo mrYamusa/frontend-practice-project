@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamusa.tech</title>
+    <script src="./Nana.js"></script>
+    <link href="./naNa.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="header-wrapper">
+        <div id="header-div">
+            <div>
+                <img id="logo" src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png" alt="Spotify Logo">
+                <input type="search" placeholder="Search"/>
+            </div>
+            <button onclick="displayForm()", ondblclick="handleCreatePost()">Create Post</button>
+        </div>
+    </div>
+    <div id="post-form-container">
+        <form action="">
+            <label for="title"><b>Title</b></label>
+            <input name="title" type="text" placeholder="Enter title">
+            <label for="description"><b>Description</b></label>
+            <input name="description" type="text" placeholder="Enter description">
+            <label for="post"><b>Post</b></label>
+            <textarea name="post" placeholder="Your post..."></textarea>
+            <button onclick="hideForm()" id="hide-form"><b>hide form</b></button>
+        </form>
+    </div>
+    
+    <div id="main-section-container">
+        <div id="article-section">
+            <img id="article-img" src="../Documents/Tech With Nana/https___dev-to-uploads.s3.amazonaws.com_uploads_articles_b15hcjp6pmjoaych9aem.avif" height="" alt="Mobile Hospital Image"/>
+            <div>
+                <h1>Article title</h1>
+                <h3>Short information on article</h3>
+                <p class="article-info"><i>Written by: author Name</i></p>
+                <p class="article-info"><i>Date: 26.02.2003</i></p>
+            </div>
+            <div>
+                <p>paragraph 1</p>
+                <p>paragraph 2</p>
+
+                <h4>Section Header</h4>
+                <h4>paragraph 1</h4>
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="side-section">
+            <div>
+                <h2>Side Section</h2> 
+                <h3>Another article title</h3> 
+                <h4>Another article title</h4>
+                <a rel="" href="https://flexisaf.com/internship/"> Link </a>
+            </div>
+            <div>
+                <h2> Also Side Section</h2> 
+                <h3>Article title</h3> 
+                <h4>Short Description</h4>
+                <a rel="" href="https://flexisaf.com/internship/"> Link </a>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>This is the footer</p>
+    </div>
+</body>
+</html>
